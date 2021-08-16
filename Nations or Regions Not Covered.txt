@@ -1,0 +1,25 @@
+Data source: Moody's long term ratings - foreign currency, until 2020 - Dec - 31.
+
+Nations or Regions not covered:
+
+Class 1: No change of rating for last 5 years
+Reason: No interest for outside investors
+Albania, Bangladesh, Bosnia, Cambodia, Estonia, Iran.
+
+Class 2: Beyond Aa1
+Reason: Too stable
+Australia, Austria, Belgium, Canada, Caymen, Denmark, Finland, France, Germany, Japan, Jordan, Korea, Luxembourg, Netherlands, New Zealand, Norway, Singapore, Sweden, Switzerland, UK, US.
+
+Class 3: No data
+Reason: THIS original data does not cover
+Angola, Bahamas, Bahrain, Barbados, Belize, Benin, Bermuda, Botswana, Cameroon, Ivory Coast, Cuba, Congo D, Dominican, Egypt, eSwatini, Ethiopia, Fiji, Gabon, Ghana, Hong Kong, India, Iraq, Kenya, Kuwait, Kyrgyz, Laos, Lebanon, Maldives, Mali, Mauritius, Mongolia, Morocco, Mozambique, Namibia, Nicaragua, Niger, Nigeria, Oman, Pakistan, Papua, Philippines, Qatar, Congo R, Rwanda, Saudi Arabia, Senegal, Solomon, South Africa, Sri Lanka, St. Vincent, Suriname, Tajikistan, Tanzania, Thailand, Togo, Tunisia, Turkmenistan, Uganda, Uzbekistan, Vietnam, Zambia.
+
+*Class 4: Only one or two effective data and the latest is not available. 
+4-1: These are listed in the original data page but not on the aggregated file:
+China, Kazahkstan, Malta.
+4-2: These are on:
+Malaysia, Indonesia, UAE, Moldova.
+
+Class 5: Not examined by Moody
+Reason: No rating data
+All nations not in Moody's Rating List 

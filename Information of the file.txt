@@ -1,0 +1,35 @@
+This .zip file contains 3 .csv files and 2 .txt files (including this one).
+
+The #original data.csv# is sourced by an intermediate data from some of my work (to measure the level and development of sports). By coincidence, I noticed the possible relationship to the ratings of the entities. That is the reason I put the dataset into Kaggle.
+
+1. #Information of the file.txt#
+Summary of the whole files.
+
+
+2. #moody.csv#
+(Part of) Sovereign rating histories from moody.com (long term rating - foreign currency, updated till Dec 31, 2020, where the up-to-date data can be found at Moody's offcial website). 
+
+The initial ratings are transformed into a yearly-measured form. For example, the second column 'Rank1011' denotes the ratings at Dec 31, 2010 (or Jan 1, 2011, the exchange timepoint from year 2010 to year 2011); the fourth column 'Rank1112' denotes the ratings at Dec 31, 2011, and so on. The third column 'Change11' denotes the change between its two neighbors, which, for the third column, is the second and the fourth (the change from Jan 1 to Dec 31 of that year). The number of change is calculated with the difference of the following order: Aaa - Aa3 - Aa2 - Aa1 - A3 - A2 - A1 - Baa3 - Baa2 - Baa1 - Ba3 - Ba2 - Ba1 - B3 - B2 - B1 - Caa3 - Caa2 - Caa1 - Ca - C.
+
+Mostly, the ratings are not going up AND down during one year. However there is one exception: Ukraine in 2015 went through Caa3 - Ca - Caa3. The data use the descending part (can be adjusted if proper).
+
+
+3. #original data.csv#
+Statistics (mean and standard deviation) of some measures for a series of sports performance, yearly for each entity. 
+
+For example, the second column 'Mean11' denotes the mean of the measures during year 2011 (Jan 1 to Dec 31), and the third column 'SD11' denotes the standard deviation of the above measures. Meanwhile, for each column, the second row 'Average' gives the average among those entities of file #original data.csv# (NOT the entities in #aggregate.csv#) excluding missing data.
+
+
+4. #Nations or Regions Not Covered.txt#
+Selection of entities (Nations or Regions) in those files. Specially, Class 4 contains some more detailed processing (can be adjusted if proper).
+
+
+5. #aggregated.csv#
+Directly aggregate #original data.csv# and #moody.csv# with the following order: change of ratings, mean, standard deviation for one year if existed (initially year 2011), and overall time ascending.
+
+Some data is deleted according to #Nations or Regions Not Covered.txt#. 'Mean' and 'SD' for some years are missing due to Data Entrance, and some other reasons (only leaves 'Change' data).
+
+
+==========
+Contact:
+jwwangars@foxmail.com
