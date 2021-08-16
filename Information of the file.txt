@@ -1,6 +1,6 @@
 This .zip file contains 3 .csv files and 2 .txt files (including this one).
 
-The #original data.csv# is sourced by an intermediate data from some of my work (to measure the level and development of sports). By coincidence, I noticed the possible relationship to the ratings of the entities. That is the reason I put the dataset into Kaggle.
+The #original data.csv# is sourced by an intermediate data from some of my work (to measure the level and development of sports). By coincidence, I noticed the possible relationship to the ratings of the entities. That is the reason I put the dataset up.
 
 1. #Information of the file.txt#
 Summary of the whole files.
